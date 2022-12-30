@@ -1,0 +1,16 @@
+h1{
+    font-size: 46px;
+     /* text-decoration: underline solid red;
+    text-decoration: underline dotted red;  */
+    text-decoration: underline wavy red;
+    /* text-decoration: overline wavy red; */
+    /* text-decoration: line-through wavy red; */
+    letter-spacing: 4px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}

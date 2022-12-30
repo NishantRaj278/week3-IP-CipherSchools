@@ -1,0 +1,24 @@
+div{
+    border: 2px solid red;
+    font-size: 20px;
+    width:50px;
+    
+}
+
+
+
+p{
+    border: 1px solid green;
+    width: 50%; 
+    /* font-size: 100%; total is 16px */
+    /* font-size: 200%; total is 32px */
+    /* font-size: 100px;*/
+    background-color: lightblue;
+    margin:4px auto; 
+    /* margin-left: 25% ; */
+    text-align: center;
+
+
+}
+
+/* div is the parent of p so here 100% is 10px  */

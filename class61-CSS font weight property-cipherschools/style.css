@@ -1,0 +1,15 @@
+p{
+    font-family: 'Poppins', sans-serif;
+   font-weight: normal; 
+   /* normal or 400 */
+   font-weight: bold;
+   /* bold or 700 */
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    /* after 700 it looks same as 400 */
+    /* for 400 or less than of it shows as same as 400 */
+
+}

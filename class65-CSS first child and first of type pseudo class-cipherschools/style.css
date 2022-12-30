@@ -1,0 +1,7 @@
+/* p:first-child{
+    color:red
+} */
+p:first-of-type{
+    color:red;
+}
+/* here how any parents have there firts child as p so they become red */

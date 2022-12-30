@@ -1,0 +1,32 @@
+/* p:nth-child(2){
+    color:green
+} */
+/* here only the 2 nd child of p changes its color */
+/* p:nth-child(2n){
+    color:green
+} */
+/* here all 2 ,4,6,8 even number paragraphs will change color */
+/* here value of n sarts from 0 */
+/* all even */
+/* p:nth-child(2n+1){
+    color:green
+} */
+/* here all odd  */
+/* p:nth-of-type(2n){
+    color:red
+} */
+/* ul li:nth-of-type(2){
+    color:red;
+    background-color: blue;
+
+} */
+/* ul li:nth-of-type(2n){
+    color:red;
+    background-color: blue;
+
+} */
+ul li:nth-of-type(2n+1){
+    color:red;
+    background-color: blue;
+
+}

@@ -1,0 +1,26 @@
+html{
+    /* font-size: 10px;  here we can also change the actual font size of html */
+    font-size: 62.5%px;  /*here we can also change the actual font size of html*/
+    /* rather than using 10px we use 62.5% beacuse here by changing it in % the font size will changes */
+    /* 16px---> 100% */
+    /* 10--->100/60*10  == 62.5*/
+
+}
+/* here we can use both html and root */
+:root{
+    font-size: 10pm ;
+
+}
+
+.box1{
+    font-size: 2rem;
+}
+/* root element is here html it size is 16px so here 2*16 = 32  */
+.text-content{
+    font-size: 3rem;
+    border: 1rem solid red;
+    margin: 0.5rem;
+    padding:4.5rem;
+}
+
+/* rem = 16px */

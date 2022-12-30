@@ -1,0 +1,21 @@
+.cool::before{
+    display: block;
+    content:'hello ';
+    color:green;
+    border:1px dotted black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.cool::after{
+    display: block;
+    content:'hello ';
+    color:green;
+    border:1px dotted black;
+    margin-top: 5px;
+    padding: 5px;
+}
+.mainheading::before{
+    content:'hello';
+    color:red;
+}
+/* for image ,br,input,and for replace elements u cant use this */

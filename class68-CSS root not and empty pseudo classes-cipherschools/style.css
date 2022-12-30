@@ -1,0 +1,27 @@
+/* :not(p){
+    color:blue;
+} */
+/* here it changed the color of body also ,p is  the child of body so it color changes */
+body :not(.fancy){
+    color:blue;
+    background-color: #ddd;
+}
+div:empty{
+    background-color: red;
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+}
+/* :root{
+    background-color: #333;
+    color:#eee;
+}
+html{
+    background-color: red;
+    color:white;
+} */
+/* u can use both root and html ,both if u use both root has more specificity than html */
+body{
+    background-color: #222;
+    color:#eee
+}

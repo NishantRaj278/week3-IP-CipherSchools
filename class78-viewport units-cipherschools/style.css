@@ -1,0 +1,26 @@
+h1{
+    /* border: 4px solid red; */
+    /* width:20em; */
+    /* viewport-width=vw */
+    /* width: 50vw; it means here 50% of the screen ,whether which device it may be */
+ }
+ /* .box{
+    border:4px solid red;
+    padding : 5px;
+    width:50%;
+ } */
+ h1{
+    /* border: 2px solid green;
+    /* width: 50%; */
+    width:50vw;
+} 
+/* diff b/wn % and vw is in % the child changes with respect to its parent ,but in vw it changes from viewport width thatis total screen ,child doesnt care about parent here */
+.box{
+    /* height:100vmin; */
+    /* vh,vw  here which would less either vh or vw it takes that only so here for example vw is small so height becomes equal to it widths size*/
+
+    height:100vmax ;
+     /* vh,vw  here which would large either vh or vw it takes that only so here for example vw is large so height becomes equal to it widths size*/
+    background-color: red;
+}
+/* vh is total screen height */

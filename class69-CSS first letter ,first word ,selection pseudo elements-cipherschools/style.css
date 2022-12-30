@@ -1,0 +1,13 @@
+p::first-letter{
+    font-size: 32px;
+}
+/* or u can use first line */
+/* h1::selection{
+    background-color: black;
+    color:white;
+} */
+/* here this only for h1 */
+p::selection{
+    background-color: black;
+    color:white;
+}

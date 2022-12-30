@@ -1,0 +1,14 @@
+h1{
+    background-color: lightblue;
+    /* text-align: center; */
+    width: 500px;
+    text-align: right;
+    padding-right: 10px;
+}
+a{
+    display: inline-block;
+    width: 500px;
+    background-color: pink;
+    text-align: center;
+    text-align: right;
+}
